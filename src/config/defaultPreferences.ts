@@ -19,7 +19,7 @@ export const defaultPreferences: Preferences = {
     layout: "sidebar-nav",
     locale: "en-US",
     loginExpiredMode: "page",
-    name: "fusion",
+    name: "nexus",
     preferencesButtonPosition: "auto",
     watermark: false,
   },
@@ -31,7 +31,7 @@ export const defaultPreferences: Preferences = {
     styleType: "normal",
   },
   copyright: {
-    companyName: "fusion",
+    companyName: "nexus",
     companySiteLink: "http://fusionadmin.cn",
     date: "2024",
     enable: true,

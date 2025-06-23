@@ -129,7 +129,7 @@ const UserDropdown: React.FC = memo(() => {
                 // 清空token
                 userStore.logout();
                 // 修改回document.title
-                document.title = 'fusion';
+                document.title = 'nexus';
                 // 退出到登录页面
                 navigate('/login', { replace: true });
               }
