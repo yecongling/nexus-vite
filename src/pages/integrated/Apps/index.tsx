@@ -162,7 +162,7 @@ const Apps: React.FC = () => {
         </div>
         {/* 应用列表 */}
         <div className="flex-1 overflow-x-hidden overflow-y-auto grid content-start grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-5 2k:grid-cols-6 gap-4 pt-2 grow relative">
-          {/* 数据查询中 */}
+          {/* 新建应用卡片 */}
           {hasAddPermission && <CreateAppCard refresh={refetch} />}
           {/* 应用列表 */}
           {(result || []).map((item: App) => (
