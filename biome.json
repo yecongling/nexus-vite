@@ -25,12 +25,15 @@
       },
       "correctness": {
         "useExhaustiveDependencies": "off",
-        "noUnusedVariables":"off"
+        "noUnusedVariables": "off"
       },
       "a11y": {
         "useKeyWithClickEvents": "off",
         "noSvgWithoutTitle": "off",
-        "noStaticElementInteractions":"info"
+        "noStaticElementInteractions": "info"
+      },
+      "nursery": {
+        "useUniqueElementIds": "off"
       }
     }
   },
