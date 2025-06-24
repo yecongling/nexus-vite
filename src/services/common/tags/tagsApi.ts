@@ -29,6 +29,7 @@ const TagsApi: Record<string, string> = {
   /**
    * 删除标签
    */
+  deleteTag: '/engine/tags/deleteTag',
 };
 
 /**
