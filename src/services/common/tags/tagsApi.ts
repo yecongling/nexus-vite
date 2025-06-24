@@ -111,9 +111,9 @@ export const tagsService: ITagsService = {
    * 删除标签
    */
   async deleteTag(tagID: string): Promise<boolean> {
-    const response = await HttpRequest.post({
+    const response = await HttpRequest.delete({
       url: TagsApi.deleteTag,
-      data: { tagID },
+      params: { tagID },
     });
     return response;
   },

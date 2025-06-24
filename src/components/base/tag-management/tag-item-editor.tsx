@@ -1,9 +1,9 @@
+import { App, Tag as AntdTag, Input } from 'antd';
+import { EditOutlined } from '@ant-design/icons';
+import { useTranslation } from 'react-i18next';
 import { useDebounceFn } from 'ahooks';
 import type React from 'react';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { App, Tag as AntdTag, Input } from 'antd';
-import { EditOutlined } from '@ant-design/icons';
 import { useTagStore } from '@/stores/useTagStore';
 import { tagsService } from '@/services/common/tags/tagsApi';
 import classNames from '@/utils/classnames';
